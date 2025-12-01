@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1abe896d-f097-49ce-9a10-e97237bd41be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/origin-engine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/data/clinical.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/data/environment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/data/histopathology.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/data/imaging3d.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/data/lifestyle.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/experiment/build_histopathology_embeddings.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/experiment/build_imaging3d_embeddings.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/experiment/build_multimodal_embeddings.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/model/feature_extractor_clip.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/model/image2d_efficientnet.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/model/image2d_resnet.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/model/image2d_vit.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/model/image3d_unet.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/build_all_embeddings.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/download_breakhis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/prepare_breakhis_patches.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/prepare_lidc_volumes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/cli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/cli/build_embeddings_cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/config/base_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/config/paths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/base_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/clinical/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/clinical/cardio_clinical_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/environment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/environment/air_quality_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/environment/external_sources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/histopathology/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/histopathology/breakhis_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/histopathology/lc25000_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/histopathology/patch_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/imaging3d/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/imaging3d/dicom_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/imaging3d/lidc_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/imaging3d/volume_preprocessor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/lifestyle/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/lifestyle/lifestyle_simulated_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/embeddings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/embeddings/environment_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/embeddings/extractor_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/embeddings/image2d_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/embeddings/image3d_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/embeddings/lifestyle_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/embeddings/registry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/embeddings/tabular_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/backbones/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/backbones/clip_backbone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/backbones/efficientnet_backbone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/backbones/resnet_backbone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/backbones/vit_backbone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/multimodal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/multimodal/feature_fusion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/segmentation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/segmentation/unet3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/pipelines/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/pipelines/build_embeddings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/pipelines/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/utils/io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/utils/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/utils/seed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/utils/transforms_2d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/origin_engine/utils/transforms_3d.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="36FxWQdw75fSKw94J5hWtbTJjZT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.27397.106" />
+        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1abe896d-f097-49ce-9a10-e97237bd41be" name="Changes" comment="" />
+      <created>1764616152296</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764616152296</updated>
+      <workItem from="1764616153282" duration="2712000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
