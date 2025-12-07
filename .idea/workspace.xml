@@ -5,83 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1abe896d-f097-49ce-9a10-e97237bd41be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/origin-engine.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/data/clinical.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/data/environment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/data/histopathology.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/data/imaging3d.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/data/lifestyle.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/experiment/build_histopathology_embeddings.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/experiment/build_imaging3d_embeddings.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/experiment/build_multimodal_embeddings.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/model/feature_extractor_clip.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/model/image2d_efficientnet.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/model/image2d_resnet.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/model/image2d_vit.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/model/image3d_unet.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build_all_embeddings.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/download_breakhis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/prepare_breakhis_patches.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/prepare_lidc_volumes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/cli/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/cli/build_embeddings_cli.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/config/base_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/config/paths.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/base_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/clinical/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/clinical/cardio_clinical_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/environment/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/environment/air_quality_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/environment/external_sources.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/histopathology/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/histopathology/breakhis_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/histopathology/lc25000_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/histopathology/patch_extractor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/imaging3d/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/imaging3d/dicom_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/imaging3d/lidc_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/imaging3d/volume_preprocessor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/lifestyle/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/data/lifestyle/lifestyle_simulated_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/embeddings/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/embeddings/environment_extractor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/embeddings/extractor_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/embeddings/image2d_extractor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/embeddings/image3d_extractor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/embeddings/lifestyle_extractor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/embeddings/registry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/embeddings/tabular_extractor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/backbones/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/backbones/clip_backbone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/backbones/efficientnet_backbone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/backbones/resnet_backbone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/backbones/vit_backbone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/multimodal/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/multimodal/feature_fusion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/segmentation/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/models/segmentation/unet3d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/pipelines/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/pipelines/build_embeddings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/pipelines/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/utils/io.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/utils/logging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/utils/seed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/utils/transforms_2d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/origin_engine/utils/transforms_3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/generate_lifestyle_data_advanced.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/origin_engine/data/histopathology/breakhis_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/origin_engine/data/histopathology/breakhis_dataset.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,9 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ecemoz&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ecemoz/origin-engine&quot;,
+    &quot;accountId&quot;: &quot;483c39b7-acbb-4716-b052-9a0e766d3bab&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="36FxWQdw75fSKw94J5hWtbTJjZT" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -112,7 +50,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.generate_lifestyle_data_advanced.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -138,11 +78,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764616152296</updated>
-      <workItem from="1764616153282" duration="2712000" />
+      <workItem from="1764616153282" duration="13940000" />
+      <workItem from="1764945437753" duration="1434000" />
+      <workItem from="1765030429106" duration="6189000" />
     </task>
+    <task id="LOCAL-00001" summary="Add core project directory layout for Origin Engine&#10;&#10;Implement initial dataset modules (histopathology, imaging3d, clinical, lifestyle, environment)&#10;&#10;Add base config system and path utilities&#10;&#10;Add initial backbone modules (ResNet, EfficientNet, ViT)&#10;&#10;Add embedding extractor base and modality-specific extractor skeletons&#10;&#10;Add pipelines for embedding generation&#10;&#10;Add CLI structure with Typer&#10;&#10;Add script placeholders for dataset preparation">
+      <option name="closed" value="true" />
+      <created>1764619090970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764619090970</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add core project directory layout for Origin Engine&#10;&#10;Implement initial dataset modules (histopathology, imaging3d, clinical, lifestyle, environment)&#10;&#10;Add base config system and path utilities&#10;&#10;Add initial backbone modules (ResNet, EfficientNet, ViT)&#10;&#10;Add embedding extractor base and modality-specific extractor skeletons&#10;&#10;Add pipelines for embedding generation&#10;&#10;Add CLI structure with Typer&#10;&#10;Add script placeholders for dataset preparation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add core project directory layout for Origin Engine&#10;&#10;Implement initial dataset modules (histopathology, imaging3d, clinical, lifestyle, environment)&#10;&#10;Add base config system and path utilities&#10;&#10;Add initial backbone modules (ResNet, EfficientNet, ViT)&#10;&#10;Add embedding extractor base and modality-specific extractor skeletons&#10;&#10;Add pipelines for embedding generation&#10;&#10;Add CLI structure with Typer&#10;&#10;Add script placeholders for dataset preparation" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/origin_engine$generate_lifestyle_data_advanced.coverage" NAME="generate_lifestyle_data_advanced Coverage Results" MODIFIED="1765030844295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
 </project>
