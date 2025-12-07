@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1abe896d-f097-49ce-9a10-e97237bd41be" name="Changes" comment="feat(data): add fully functional BreakHis dataset loader with correct directory traversal...&#10;&#10;BreakHis’in çok seviyeli klasör yapısına uygun özel dataset loader geliştirildi&#10;&#10;Alt tip (subtype), slide kimliği ve büyütme oranı (magnification) metadata desteği eklendi&#10;&#10;ImageNet tabanlı varsayılan transform fonksiyonu eklendi&#10;&#10;Dataset başarıyla test edildi (~7909 görüntü yüklendi)&#10;&#10;Embedding pipeline için temel altyapı hazırlandı (Aşama 1)">
+    <list default="true" id="1abe896d-f097-49ce-9a10-e97237bd41be" name="Changes" comment="Add CardioClinicalDataset loader for heart failure clinical records&#10;&#10;Kalp yetmezliği klinik kayıtları veri seti için PyTorch tabanlı bir &#10;CardioClinicalDataset sınıfı eklendi. CSV dosyasından klinik özelliklerin &#10;alınması, tensöre dönüştürülmesi ve hedef değişkenin yüklenmesi sağlandı. &#10;Model eğitim pipeline’ı ile tamamen uyumludur.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/origin_engine/data/histopathology/lc25000_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/origin_engine/data/histopathology/lc25000_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/origin_engine/data/environment/air_quality_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/origin_engine/data/environment/air_quality_dataset.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
       <updated>1764616152296</updated>
       <workItem from="1764616153282" duration="13940000" />
       <workItem from="1764945437753" duration="1434000" />
-      <workItem from="1765030429106" duration="7141000" />
+      <workItem from="1765030429106" duration="7785000" />
     </task>
     <task id="LOCAL-00001" summary="Add core project directory layout for Origin Engine&#10;&#10;Implement initial dataset modules (histopathology, imaging3d, clinical, lifestyle, environment)&#10;&#10;Add base config system and path utilities&#10;&#10;Add initial backbone modules (ResNet, EfficientNet, ViT)&#10;&#10;Add embedding extractor base and modality-specific extractor skeletons&#10;&#10;Add pipelines for embedding generation&#10;&#10;Add CLI structure with Typer&#10;&#10;Add script placeholders for dataset preparation">
       <option name="closed" value="true" />
@@ -97,7 +97,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765121061381</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add LC25000 custom PyTorch Dataset loader with transform support.&#10;LC25000 veri seti için özel bir PyTorch Dataset sınıfı eklendi. &#10;Klasör yapısına göre otomatik etiketleme, organ bilgisi çıkarma, &#10;görüntü listeleme (indexleme) ve transform desteği sağlandı. &#10;Model eğitim pipeline’ı ile uyumlu hale getirildi.">
+      <option name="closed" value="true" />
+      <created>1765121761362</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765121761362</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add CardioClinicalDataset loader for heart failure clinical records&#10;&#10;Kalp yetmezliği klinik kayıtları veri seti için PyTorch tabanlı bir &#10;CardioClinicalDataset sınıfı eklendi. CSV dosyasından klinik özelliklerin &#10;alınması, tensöre dönüştürülmesi ve hedef değişkenin yüklenmesi sağlandı. &#10;Model eğitim pipeline’ı ile tamamen uyumludur.">
+      <option name="closed" value="true" />
+      <created>1765121951954</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765121951954</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +133,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add core project directory layout for Origin Engine&#10;&#10;Implement initial dataset modules (histopathology, imaging3d, clinical, lifestyle, environment)&#10;&#10;Add base config system and path utilities&#10;&#10;Add initial backbone modules (ResNet, EfficientNet, ViT)&#10;&#10;Add embedding extractor base and modality-specific extractor skeletons&#10;&#10;Add pipelines for embedding generation&#10;&#10;Add CLI structure with Typer&#10;&#10;Add script placeholders for dataset preparation" />
     <MESSAGE value="feat(data): add fully functional BreakHis dataset loader with correct directory traversal...&#10;&#10;BreakHis’in çok seviyeli klasör yapısına uygun özel dataset loader geliştirildi&#10;&#10;Alt tip (subtype), slide kimliği ve büyütme oranı (magnification) metadata desteği eklendi&#10;&#10;ImageNet tabanlı varsayılan transform fonksiyonu eklendi&#10;&#10;Dataset başarıyla test edildi (~7909 görüntü yüklendi)&#10;&#10;Embedding pipeline için temel altyapı hazırlandı (Aşama 1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(data): add fully functional BreakHis dataset loader with correct directory traversal...&#10;&#10;BreakHis’in çok seviyeli klasör yapısına uygun özel dataset loader geliştirildi&#10;&#10;Alt tip (subtype), slide kimliği ve büyütme oranı (magnification) metadata desteği eklendi&#10;&#10;ImageNet tabanlı varsayılan transform fonksiyonu eklendi&#10;&#10;Dataset başarıyla test edildi (~7909 görüntü yüklendi)&#10;&#10;Embedding pipeline için temel altyapı hazırlandı (Aşama 1)" />
+    <MESSAGE value="Add LC25000 custom PyTorch Dataset loader with transform support.&#10;LC25000 veri seti için özel bir PyTorch Dataset sınıfı eklendi. &#10;Klasör yapısına göre otomatik etiketleme, organ bilgisi çıkarma, &#10;görüntü listeleme (indexleme) ve transform desteği sağlandı. &#10;Model eğitim pipeline’ı ile uyumlu hale getirildi." />
+    <MESSAGE value="Add CardioClinicalDataset loader for heart failure clinical records&#10;&#10;Kalp yetmezliği klinik kayıtları veri seti için PyTorch tabanlı bir &#10;CardioClinicalDataset sınıfı eklendi. CSV dosyasından klinik özelliklerin &#10;alınması, tensöre dönüştürülmesi ve hedef değişkenin yüklenmesi sağlandı. &#10;Model eğitim pipeline’ı ile tamamen uyumludur." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add CardioClinicalDataset loader for heart failure clinical records&#10;&#10;Kalp yetmezliği klinik kayıtları veri seti için PyTorch tabanlı bir &#10;CardioClinicalDataset sınıfı eklendi. CSV dosyasından klinik özelliklerin &#10;alınması, tensöre dönüştürülmesi ve hedef değişkenin yüklenmesi sağlandı. &#10;Model eğitim pipeline’ı ile tamamen uyumludur." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/origin_engine$generate_lifestyle_data_advanced.coverage" NAME="generate_lifestyle_data_advanced Coverage Results" MODIFIED="1765030844295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
